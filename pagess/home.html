@@ -11,6 +11,12 @@
       crossorigin="anonymous"
     />
     <title>Travel Agency</title>
+    <style>
+      .scrollspy-roteiro {
+          height: 200px;
+          overflow-y: scroll;
+      }
+  </style>
   </head>
   <body>
     <header>
@@ -134,7 +140,33 @@
           <h1 class="display-5">Aqui começa sua aventura</h1>
           <p>Reserve agora sua experiência</p>
         </header>
-        <article></article>
+        <article>
+          <div class="row">
+            <div class="col-lg-3">
+              <div id="list-roteiro" class="list-group">
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Roteiro Aventura</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Roteiro Tranquilidade</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Roteiro Romântico</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Roteiro Família</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-5">Roteiro Praia</a>
+              </div>
+            </div>
+            <div class="col-lg-9">
+              <div data-bs-spy="scroll" data-bs-target="#list-roteiro" data-bs-smooth-scroll="true" class="scrollspy-roteiro" tabindex="0">
+                <h4 id="list-item-1">Roteiro Aventura</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <h4 id="list-item-2">Roteiro Tranquilidade</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <h4 id="list-item-3">Roteiro Romântico</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <h4 id="list-item-4">Roteiro Família</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <h4 id="list-item-5">Roteiro Praia</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cumque explicabo non et impedit harum velit beatae dicta, cum reiciendis suscipit neque quaerat ipsa quas ab laudantium veniam. Corporis, libero.</p>
+              </div>
+            </div>
+          </div>
+        </article>
       </section>
       <div class="alert alert-primary" role="alert">BootStrap Works!</div>
     </main>
