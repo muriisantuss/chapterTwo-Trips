@@ -13,13 +13,14 @@
     <title>Travel Agency</title>
     <style>
       .scrollspy-roteiro {
-          height: 200px;
-          overflow-y: scroll;
+        height: 200px;
+        overflow-y: scroll;
       }
-  </style>
+    </style>
   </head>
   <body>
     <header>
+      <!-- NavBar -->
       <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -64,6 +65,7 @@
       </nav>
     </header>
     <main class="container mt-3">
+      <!-- Carousel -->
       <div
         id="carouselExampleCaptions"
         class="carousel slide d-none d-lg-block"
@@ -135,39 +137,130 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <section class="mt-3">
+      <article class="mt-3">
+        <!-- Title and SubTitle -->
         <header class="text-center">
           <h1 class="display-5">Aqui começa sua aventura</h1>
           <p>Reserve agora sua experiência</p>
         </header>
-        <article>
-          <div class="row">
+        <!-- ScrollSky Roteiros -->
+        <section>
+          <div class="row ">
             <div class="col-lg-3">
               <div id="list-roteiro" class="list-group">
-                <a class="list-group-item list-group-item-action" href="#list-item-1">Roteiro Aventura</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-2">Roteiro Tranquilidade</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-3">Roteiro Romântico</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-4">Roteiro Família</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-5">Roteiro Praia</a>
+                <a
+                  class="list-group-item list-group-item-action"
+                  href="#list-item-1"
+                  >Roteiro Aventura</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  href="#list-item-2"
+                  >Roteiro Tranquilidade</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  href="#list-item-3"
+                  >Roteiro Romântico</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  href="#list-item-4"
+                  >Roteiro Família</a
+                >
+                <a
+                  class="list-group-item list-group-item-action"
+                  href="#list-item-5"
+                  >Roteiro Praia</a
+                >
               </div>
             </div>
             <div class="col-lg-9">
-              <div data-bs-spy="scroll" data-bs-target="#list-roteiro" data-bs-smooth-scroll="true" class="scrollspy-roteiro" tabindex="0">
+              <div
+                data-bs-spy="scroll"
+                data-bs-target="#list-roteiro"
+                data-bs-smooth-scroll="true"
+                class="scrollspy-roteiro"
+                tabindex="0"
+              >
                 <h4 id="list-item-1">Roteiro Aventura</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolor possimus mollitia modi reprehenderit adipisci obcaecati
+                  quas hic perspiciatis, asperiores deleniti, quisquam velit
+                  nihil voluptatibus a, quos natus distinctio tempora amet?
+                </p>
                 <h4 id="list-item-2">Roteiro Tranquilidade</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolor possimus mollitia modi reprehenderit adipisci obcaecati
+                  quas hic perspiciatis, asperiores deleniti, quisquam velit
+                  nihil voluptatibus a, quos natus distinctio tempora amet?
+                </p>
                 <h4 id="list-item-3">Roteiro Romântico</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolor possimus mollitia modi reprehenderit adipisci obcaecati
+                  quas hic perspiciatis, asperiores deleniti, quisquam velit
+                  nihil voluptatibus a, quos natus distinctio tempora amet?
+                </p>
                 <h4 id="list-item-4">Roteiro Família</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor possimus mollitia modi reprehenderit adipisci obcaecati quas hic perspiciatis, asperiores deleniti, quisquam velit nihil voluptatibus a, quos natus distinctio tempora amet?</p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolor possimus mollitia modi reprehenderit adipisci obcaecati
+                  quas hic perspiciatis, asperiores deleniti, quisquam velit
+                  nihil voluptatibus a, quos natus distinctio tempora amet?
+                </p>
                 <h4 id="list-item-5">Roteiro Praia</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cumque explicabo non et impedit harum velit beatae dicta, cum reiciendis suscipit neque quaerat ipsa quas ab laudantium veniam. Corporis, libero.</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  cumque explicabo non et impedit harum velit beatae dicta, cum
+                  reiciendis suscipit neque quaerat ipsa quas ab laudantium
+                  veniam. Corporis, libero.
+                </p>
               </div>
             </div>
           </div>
-        </article>
-      </section>
+        </section>
+      </article>
+      <article class="mt-3">
+        <!-- Title and SubTitle -->
+        <header class="text-center">
+          <h1 class="display-5">Acomodações</h1>
+          <p>Do luxo ao econômico!</p>
+        </header>
+        <section >
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Luxo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Executivo</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Econômico</button>
+            </li>
+          </ul>
+          <div class="tab-content py-2" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+              <h1 class="display-6">O máximo do luxo</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti itaque, soluta eaque aliquid modi, tenetur nihil fugiat provident est quae, molestias rerum nisi culpa animi unde dolorem voluptatibus praesentium non?</p>
+              
+              <img src="/assets/room1.jpg" class="img-fluid shadow mb-5 bg-body rounded" alt="room1"></div>
+              
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="1">
+              <h1 class="display-6">Melhor custo benefício</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti itaque, soluta eaque aliquid modi, tenetur nihil fugiat provident est quae, molestias rerum nisi culpa animi unde dolorem voluptatibus praesentium non?</p>
+              <img src="/assets/room2.jpg" class="img-fluid shadow mb-5 bg-body rounded" alt="room2"></div>
+             
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="2">
+              <h1 class="display-6">Somente o essencial</h1>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti itaque, soluta eaque aliquid modi, tenetur nihil fugiat provident est quae, molestias rerum nisi culpa animi unde dolorem voluptatibus praesentium non?</p>
+              <img src="/assets/room3.jpg" class="img-fluid shadow mb-5 bg-body rounded" alt="room3"></div>
+    
+          </div>
+        </section>
+      </article>
       <div class="alert alert-primary" role="alert">BootStrap Works!</div>
     </main>
 
